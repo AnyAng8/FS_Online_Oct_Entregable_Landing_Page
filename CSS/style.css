@@ -1,3 +1,120 @@
-h1{background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+:root {
+ --mainColor: #009d95
+
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MI CSS */
+
+body{
+
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.mainHeader {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.categories {
+    display: flex;
+    gap: 15px;
+}
+.categories a {
+    text-decoration: none;
+    color: var(--mainColor)
+}
+
+.lenguaje {
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+}
+
+.masthead{
+    position: relative;
+}
+.masthead img {
+    width: 100% ;
+    filter: brightness(70%);
+}
+
+.masthead article{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+
+.masthead article p{
+ font-size: 16px;
+ font-weight: 300;
+}
+
+.masthead article h2{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.masthead article button{
+    background-color: pink;
+    border: none;
 }
